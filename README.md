@@ -1,10 +1,9 @@
 # Shy
-Shy is a framework automatically generating Object Algebras Queries and Transformations based on generic OA Interfaces. The library has been tested in JRE 8 with Eclipse. 
+Shy is a framework automatically generating Object Algebras Queries and Transformations based on generic OA Interfaces. The library has been tested in JRE 8 in Eclipse. 
 
-For a complete example of writing object algebras code with Shy, please refer to the following repository.
-https://github.com/JasonCHU/ObjectAlgebraFramework/tree/master/ObjectAlgebras 
+For a complete example of writing object algebras code with Shy, please refer [this](https://github.com/JasonCHU/ObjectAlgebraFramework/tree/master/ObjectAlgebras) repository. 
 
-To use this library, download Library.jar file at the main repository, or you may also export the library from the Java project in the repo. 
+To use this library, download Library.jar file at the main repository, or you may also export the library yourself from the Java project in the repo. 
 
 Include Library.jar in the Java build path of your project. Also include Library.jar in the factory path of your project, that is, Java Compiler - Annotation Processing - Factory Path if you are using Eclipse. 
 
