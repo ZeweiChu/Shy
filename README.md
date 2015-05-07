@@ -10,6 +10,7 @@ Include Library.jar in the Java build path of your project. Also include Library
 
 Now create your first interface with @Algebra annotation. All default extended OA interfaces such as queries, transformations will be created at their corresponding packages. If they are not created automatically, build your project manually. Another possible reason is that the auto-generated packages are hidden by default, you may set the default generated source directory to be "src". In Eclipse, that is at the setting of Java Compiler - Annotation Processing - Generated Source Directory. Warning: This library may pollute the packages as 4 packages namely "combinator", "query", "transform" and "util" will be created at the root. 
 
+```java
 import com.zewei.annotation.processor.Algebra;
 @Algebra
 public interface ExpAlg<Exp> {
@@ -17,4 +18,4 @@ public interface ExpAlg<Exp> {
 	Exp Lit(int i);
 	Exp Add(Exp e1, Exp e2);
 }
-
+```
