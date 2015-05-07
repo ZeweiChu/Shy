@@ -12,6 +12,7 @@ Now create your first interface with @Algebra annotation. All default extended O
 
 ```java
 import com.zewei.annotation.processor.Algebra;
+
 @Algebra
 public interface ExpAlg<Exp> {
 	Exp Var(String s);
